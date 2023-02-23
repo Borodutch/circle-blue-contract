@@ -7,6 +7,7 @@
     "url": "git+https://github.com/Borodutch/circle-blue-contract"
   },
   "license": "MIT",
+  "private": false,
   "np": {
     "2fa": false,
     "tests": false,
