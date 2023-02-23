@@ -1,10 +1,10 @@
 {
-  "name": "@borodutch/smart-contract-starter",
+  "name": "@borodutch/circle-blue-contract",
   "version": "0.0.1",
-  "description": "A starter for Solidity smart contracts for Ethereum",
+  "description": "CircleBlue contract",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Borodutch/smart-contract-starter"
+    "url": "git+https://github.com/Borodutch/circle-blue-contract"
   },
   "license": "MIT",
   "np": {
@@ -31,6 +31,7 @@
     "prepublishOnly": "yarn build && yarn tsc"
   },
   "devDependencies": {
+    "@big-whale-labs/versioned-contract": "^1.0.2",
     "@ethersproject/providers": "^5.7.2",
     "@nomiclabs/hardhat-ethers": "^2.2.2",
     "@nomiclabs/hardhat-etherscan": "^3.1.6",
