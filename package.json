@@ -8,6 +8,9 @@
   },
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "np": {
     "2fa": false,
     "tests": false,
